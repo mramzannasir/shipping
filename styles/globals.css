@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Rubik", sans-serif;
+  }
+  h1 p {
+    color: #212121;
+  }
+  p {
+    color: #212121;
+    opacity: 0.8;
+  }
+
+  .ico {
+    border: 1px solid #f0f0f0;
+    box-shadow: (0px 4px 8px rgba(254, 0, 0, 0.062));
+    box-shadow: rgba(254, 0, 0, 0.062) 0px 4px 8px;
+  }
+  .child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+  }
+  @media only screen and (max-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+  }
+
+  .cardss:hover {
+    box-shadow: 1px 1px 12px 5px #f9f9f9;
+  }
+  .calender {
+    box-shadow: 1px 1px 12px 5px #f9f9f9;
+  }
+
+  .card-top > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-bottom {
+    margin: 10px 20px;
+  }
+
+  .category {
+    position: relative;
+  }
+  .category::before {
+    content: "";
+    background: rgb(255, 61, 61);
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    height: 2px;
+  }
+
+  .sid:hover {
+    background: rgba(254, 0, 0, 0.08);
+  }
+  .scrl::-webkit-scrollbar {
+    width: 6px;
+    height: 1px;
+    border-radius: 1rem;
+  }
+  .scrl::-webkit-scrollbar-track {
+    border-radius: 100vh;
+  }
+  .scrl::-webkit-scrollbar-thumb {
+    background: #d1d1d1;
+    border-radius: 100vh;
+  }
+  /* Handle on hover */
+  .scrl::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+  }
+  /* .section {
+    background: url("/Images/Bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+  } */
+  @media (min-width: 1034px) {
+    .line-1 {
+      margin-top: 0.2rem;
+    }
+  }
+  @media (min-width: 1278px) {
+    .boxx {
+      /* right: 40rem; */
+    }
+  }
+}
