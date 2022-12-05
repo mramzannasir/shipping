@@ -11,12 +11,8 @@
   body {
     font-family: "Rubik", sans-serif;
   }
-  h1 p {
+  h1 {
     color: #212121;
-  }
-  p {
-    color: #212121;
-    opacity: 0.8;
   }
 
   .ico {
@@ -96,6 +92,20 @@
   @media (min-width: 1278px) {
     .boxx {
       /* right: 40rem; */
+    }
+  }
+  .Tbox {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 115, 115, 0.07) 0%,
+      rgba(250, 29, 4, 0.08) 15.5%,
+      rgba(230, 188, 23, 0.22) 100.24%
+    );
+  }
+  @media (min-width: 768px) {
+    .Tbox {
+      background-image: url("/Images/Bg.png");
+      background-position: cover;
     }
   }
 }

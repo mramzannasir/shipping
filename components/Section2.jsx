@@ -28,10 +28,10 @@ const Section2 = () => {
                   <AiFillRightCircle className="text-xl text-[#fe0000] xl:text-2xl" />
                 </div>
                 <div>
-                  <h1 className="text-xl font-medium lg:text-2xl">Speed</h1>
+                  <h1 className="text-[16px] font-semibold">Speed</h1>
                 </div>
               </div>
-              <p className="mt-1 text-sm">
+              <p className="mt-1 text-sm text-[#6C6C6C]">
                 Fastest logistics company servicing Nigerian community. We
                 deliver within 1 week.
               </p>
@@ -42,10 +42,10 @@ const Section2 = () => {
                   <AiFillRightCircle className="text-xl text-[#fe0000] xl:text-2xl" />
                 </div>
                 <div>
-                  <h1 className="text-xl font-medium lg:text-2xl">Pricing</h1>
+                  <h1 className="text-[16px] font-semibold">Pricing</h1>
                 </div>
               </div>
-              <p className="mt-1 text-sm">
+              <p className="mt-1 text-sm text-[#6C6C6C]">
                 We provide competitive pricing while moving twice as fast as our
                 competitors
               </p>
@@ -56,12 +56,12 @@ const Section2 = () => {
                   <AiFillRightCircle className="text-xl text-[#fe0000] xl:text-2xl" />
                 </div>
                 <div>
-                  <h1 className="text-xl font-medium lg:text-2xl">
+                  <h1 className="text-[16px] font-semibold">
                     Customer Services
                   </h1>
                 </div>
               </div>
-              <p className="mt-1 text-sm">
+              <p className="mt-1 text-sm text-[#6C6C6C]">
                 We pay attention to our customers needs and work tirelessly to
                 meet them.
               </p>
@@ -72,12 +72,12 @@ const Section2 = () => {
                   <AiFillRightCircle className="text-xl text-[#fe0000] xl:text-2xl" />
                 </div>
                 <div>
-                  <h1 className="text-xl font-medium lg:text-2xl">
+                  <h1 className="text-[16px] font-semibold">
                     Spacial Prices for Wholesaler
                   </h1>
                 </div>
               </div>
-              <p className="mt-1 text-sm">
+              <p className="mt-1 text-sm text-[#6C6C6C]">
                 We offer pocket-friendly rates for Clients who ship item in bulk
                 with us.
               </p>

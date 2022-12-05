@@ -30,7 +30,7 @@ const Videoplayer = () => {
         </video>
         <div className="child absolute top-[50%] left-[50%] inline-block cursor-pointer transition">
           <AiFillPlayCircle
-            className={`inline-block text-6xl text-white lg:text-7xl ${
+            className={`inline-block rounded-full  text-6xl text-white lg:text-7xl ${
               update === 1 ? "hidden" : ""
             }`}
             onClick={handlePlay}

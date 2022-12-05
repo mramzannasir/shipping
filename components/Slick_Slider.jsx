@@ -62,10 +62,10 @@ const Slick_Slider = () => {
   return (
     <>
       <section className="py-6">
-        <h1 className="2xl:5xl text-center text-3xl font-bold md:text-4xl">
+        <h1 className="text-center text-[26px] font-bold  lg:text-[36px] ">
           Services
         </h1>
-        <p className="my-4 text-center text-base font-normal leading-5">
+        <p className="my-4 text-center text-[14px]  font-light leading-7 text-[#212121] opacity-80">
           We offer outstanding services on time, every time at affordable rates.
         </p>
         <div className="mx-auto flex  w-full flex-col">
@@ -74,18 +74,18 @@ const Slick_Slider = () => {
               <>
                 <div
                   key={index}
-                  className="card color-white  mx-2 md:p-3 xl:mx-3  2xl:mx-6">
-                  <div className="cardss h-[280px] cursor-pointer rounded-lg bg-[#fafafa] px-6  py-4 duration-300 hover:bg-[#ffffff] md:h-[290px]">
+                  className="card color-white mx-2 flex  items-center md:p-3 xl:mx-3  2xl:mx-6">
+                  <div className="cardss flex-1 cursor-pointer rounded-lg bg-[#db3939] px-6  py-4 duration-300 hover:bg-[#ffffff] md:h-[290px]">
                     <img
                       className="mx-auto"
                       src={item.Image}
                       alt="normal"
                       srcSet=""
                     />
-                    <h1 className="mt-6 text-center text-xl font-semibold">
+                    <h1 className="mt-6 text-center text-xl font-medium">
                       {item.title}
                     </h1>
-                    <p className="mt-4 mb-2 text-center text-sm font-normal">
+                    <p className="mt-4 mb-2 text-center text-sm font-normal text-[#212121]">
                       {item.description}
                     </p>
                   </div>

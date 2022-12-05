@@ -7,14 +7,14 @@ const Timeline = () => {
   return (
     <>
       <section className="py-8">
-        <h1 className="text-center text-[28px] font-semibold md:text-3xl xl:text-4xl ">
-          How it is works
+        <h1 className="text-center text-[28px] font-semibold leading-10 ">
+          How It Works
         </h1>
-        <p className="my-3 text-center text-[16px] font-light opacity-[.8] md:text-sm">
-          The Plate Form is Hassle free and simple to use!
+        <p className="my-3 text-center text-[16px] font-light leading-7 opacity-80 md:text-sm">
+          The plate form is Hassle free and simple to use!
         </p>
         {/* For Mobile */}
-        <div className="md:hidden">
+        <div className="px-2 md:hidden">
           <div className="flex flex-col justify-center">
             <div className="mx-auto inline-block rounded-full border-4 border-[#FE0000] bg-white p-4">
               <Image
@@ -26,7 +26,7 @@ const Timeline = () => {
             </div>
             <div className="mx-auto h-[3rem] w-[2px] bg-[#FE0000]"></div>
             <div className="mx-auto rounded-xl bg-white py-4 px-2">
-              <h1 className="text-center text-2xl font-semibold">
+              <h1 className="text-center text-[20px] font-medium leading-6">
                 Choose your shipment
               </h1>
               <p className="mt-2 px-2 text-center text-[16px] font-normal leading-6 opacity-[.8]">
@@ -46,13 +46,12 @@ const Timeline = () => {
             </div>
             <div className="mx-auto h-[3rem] w-[2px] bg-[#C2C2C2]"></div>
             <div className="mx-auto rounded-xl bg-white py-4 px-2">
-              <h1 className="text-center text-2xl font-semibold">
-                Choose your shipment
+              <h1 className="text-center text-[20px] font-medium leading-6 opacity-50">
+                Pick & Ship
               </h1>
-              <p className="mt-2 px-2 text-center text-[16px] font-normal leading-6 opacity-[.8]">
-                Send in your items to our office or contact us for a pick up.
-                Fill our form to document your details which will include
-                recipient info and destination of shipment.
+              <p className="mt-2 px-2 text-center text-[16px] font-normal leading-6 text-[#212121] opacity-[.5]">
+                When your shipment arrives at our office, we will perform a
+                final inspection before sending it out to its final destination
               </p>
             </div>
             <div className="mx-auto h-[3rem] w-[2px] bg-[#C2C2C2]"></div>
@@ -66,13 +65,11 @@ const Timeline = () => {
             </div>
             <div className="mx-auto h-[3rem] w-[2px] bg-[#C2C2C2]"></div>
             <div className="mx-auto rounded-xl bg-white py-4 px-2">
-              <h1 className="text-center text-2xl font-medium">
-                Choose your shipment
+              <h1 className="text-center text-[20px] font-medium leading-6 opacity-50">
+                Track Shipment
               </h1>
-              <p className="mt-2 px-2 text-center text-[16px] font-normal leading-6 opacity-[.8]">
-                Send in your items to our office or contact us for a pick up.
-                Fill our form to document your details which will include
-                recipient info and destination of shipment.
+              <p className="mt-2 px-2 text-center text-[16px] font-normal leading-6 text-[#212121] opacity-[.5]">
+                We would send updates as they are available.
               </p>
             </div>
           </div>

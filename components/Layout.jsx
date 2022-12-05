@@ -28,7 +28,7 @@ const Layout = () => {
         <div className="px-2 xl:px-20 2xl:px-28">
           <CalenderSection />
         </div>
-        <div className="h-[80rem] w-full bg-hero-pattern bg-cover bg-no-repeat">
+        <div className="Tbox h-[70rem] w-full">
           <div className="px-2 xl:px-20 2xl:px-28">
             <Timeline />
           </div>
