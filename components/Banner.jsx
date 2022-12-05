@@ -14,10 +14,10 @@ const Banner = () => {
         <section className="pt-8 xl:pt-10">
           <div className="flex  flex-col items-center md:flex-row xl:justify-center 2xl:items-center 2xl:gap-12">
             <div className="flex flex-col text-center md:text-left ">
-              <h1 className="text-3xl font-bold xl:text-4xl 2xl:text-6xl">
+              <h1 className="text-[32px] font-bold leading-10 xl:text-4xl 2xl:text-6xl">
                 Nigeria logistic simplified
               </h1>
-              <p className="my-4 text-center font-normal leading-relaxed md:my-2 md:text-left md:text-sm lg:text-sm xl:my-4 2xl:text-lg">
+              <p className="my-4 px-[3px] text-center text-[16px] font-normal leading-relaxed md:my-2 md:px-0 md:text-left md:text-sm lg:text-sm xl:my-4 2xl:text-lg">
                 We make shipping fast and easy through air freight Logistics at
                 affordable prices.
               </p>

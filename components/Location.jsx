@@ -74,14 +74,14 @@ const Location = () => {
               <>
                 <div
                   key={index}
-                  className="card color-white  mx-2 md:p-3 xl:mx-3  2xl:mx-6">
-                  <div className="cardss cursor-pointer rounded-lg bg-[#fafafa] px-6  py-4 duration-300 hover:bg-[#ffffff]">
+                  className="card color-white mx-2  flex md:p-3 xl:mx-3  2xl:mx-6">
+                  <div className="cardss flex-1 cursor-pointer rounded-lg bg-[#533434] px-6  py-4 duration-300 hover:bg-[#ffffff]">
                     <img
                       className="h-auto w-full  xl:h-[15rem]"
                       src={item.Img}
                       alt="locations"
                     />
-                    <p className="my-3 text-center text-sm  font-light">
+                    <p className="my-3 text-center text-sm font-light">
                       {item.loc}
                     </p>
                     <button className="mt-2 w-full rounded-lg border-[1px] border-[#FE0000] py-2 text-center">

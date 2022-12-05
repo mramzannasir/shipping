@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import logo from "../Images/main-logo.png";
 import Image from "next/image";
@@ -13,7 +12,7 @@ export default function Navbar() {
       <div>
         <nav className="flex flex-col pt-1 md:flex-row md:items-center md:justify-between lg:pt-3">
           <div className="logo cursor-pointer ">
-            <Image height={40} src={logo} alt="normal" />
+            <Image height={40} width={50} src={logo} alt="Logo of company" />
           </div>
           <div
             onClick={onclick}
@@ -27,7 +26,7 @@ export default function Navbar() {
             }>
             <ul
               className={`absolute z-50 flex h-[100vh] flex-col px-2 pt-1 opacity-[.999] md:static md:h-auto  md:flex-row md:items-center md:justify-between md:space-x-3 md:px-0 md:pt-0  ${
-                open ? "left-[0] top-0 right-20 " : "left-[-900px] top-0"
+                open ? "left-0 top-0 right-20 " : "left-[-900px] top-0"
               } left-0  w-full bg-[#e9e9e9] transition-all duration-700 ease-in md:w-auto md:bg-inherit`}>
               <div className="flex items-center ">
                 <div className="logo cursor-pointer ">

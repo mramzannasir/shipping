@@ -12,35 +12,37 @@ import Footer from "./Footer";
 const Layout = () => {
   return (
     <>
-      <div className="px-2 xl:px-20 2xl:px-28">
-        <Navbar />
-      </div>
-      <div className="bg-[#f9f9f9] px-2 xl:px-20 2xl:px-28">
-        <Banner />
-      </div>
-      <div className="px-2 xl:px-20 2xl:px-28">
-        <Section2 />
-      </div>
-      <div className="px-2 xl:px-20 2xl:px-28">
-        <Slick_Slider />
-      </div>
-      <div className="px-2 xl:px-20 2xl:px-28">
-        <CalenderSection />
-      </div>
-      <div className="h-[65rem] w-full bg-hero-pattern bg-cover bg-no-repeat">
+      <div className="overflow-x-hidden">
         <div className="px-2 xl:px-20 2xl:px-28">
-          <Timeline />
+          <Navbar />
         </div>
-      </div>
-      <div className="px-2 xl:px-20 2xl:px-28">
-        <Prices />
-      </div>
-      <div className="px-2 xl:px-20 2xl:px-28">
-        <Location />
-      </div>
-      <div className="bg-[#fafafa]">
+        <div className="bg-[#f9f9f9] px-2 xl:px-20 2xl:px-28">
+          <Banner />
+        </div>
         <div className="px-2 xl:px-20 2xl:px-28">
-          <Footer />
+          <Section2 />
+        </div>
+        <div className="px-2 xl:px-20 2xl:px-28">
+          <Slick_Slider />
+        </div>
+        <div className="px-2 xl:px-20 2xl:px-28">
+          <CalenderSection />
+        </div>
+        <div className="h-[80rem] w-full bg-hero-pattern bg-cover bg-no-repeat">
+          <div className="px-2 xl:px-20 2xl:px-28">
+            <Timeline />
+          </div>
+        </div>
+        <div className="px-2 xl:px-20 2xl:px-28">
+          <Prices />
+        </div>
+        <div className="px-2 xl:px-20 2xl:px-28">
+          <Location />
+        </div>
+        <div className="bg-[#fafafa]">
+          <div className="px-2 xl:px-20 2xl:px-28">
+            <Footer />
+          </div>
         </div>
       </div>
     </>

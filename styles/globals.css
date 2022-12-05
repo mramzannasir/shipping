@@ -87,13 +87,7 @@
   .scrl::-webkit-scrollbar-thumb:hover {
     background: #b3b3b3;
   }
-  /* .section {
-    background: url("/Images/Bg.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-origin: padding-box;
-  } */
+
   @media (min-width: 1034px) {
     .line-1 {
       margin-top: 0.2rem;
