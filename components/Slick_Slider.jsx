@@ -65,17 +65,17 @@ const Slick_Slider = () => {
         <h1 className="text-center text-[26px] font-bold  lg:text-[36px] ">
           Services
         </h1>
-        <p className="my-4 text-center text-[14px]  font-light leading-7 text-[#212121] opacity-80">
+        <p className="text-center text-[14px]  font-light leading-7 text-[#212121] opacity-80">
           We offer outstanding services on time, every time at affordable rates.
         </p>
-        <div className="mx-auto flex  w-full flex-col">
+        <div className="mx-auto mt-4 flex  w-full flex-col">
           <Slider {...settings}>
             {dataDigitalBestSeller.map((item, index) => (
               <>
                 <div
                   key={index}
                   className="card color-white mx-2 flex  items-center md:p-3 xl:mx-3  2xl:mx-6">
-                  <div className="cardss flex-1 cursor-pointer rounded-lg bg-[#db3939] px-6  py-4 duration-300 hover:bg-[#ffffff] md:h-[290px]">
+                  <div className="cardss flex-1 cursor-pointer rounded-lg bg-[#fafafa] px-6 py-2  shadow-xl  duration-300 hover:bg-[#ffffff] md:h-[290px]">
                     <img
                       className="mx-auto"
                       src={item.Image}

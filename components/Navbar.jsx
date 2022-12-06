@@ -29,7 +29,7 @@ export default function Navbar() {
                 open ? "left-0 top-0 right-20 " : "left-[-900px] top-0"
               } left-0  w-full bg-[#e9e9e9] transition-all duration-700 ease-in md:w-auto md:bg-inherit`}>
               <div className="flex items-center ">
-                <div className="logo cursor-pointer ">
+                <div className="logo cursor-pointer md:hidden">
                   <Image height={40} src={logo} alt="normal" />
                 </div>
                 <div
@@ -39,20 +39,20 @@ export default function Navbar() {
                 </div>
               </div>
 
-              <li className="my-2 cursor-pointer border-stone-50 text-center font-normal md:my-auto md:border-none">
-                Home
+              <li className="my-2 cursor-pointer border-stone-50 text-center font-normal md:my-auto md:border-none lg:font-medium">
+                About us
               </li>
-              <li className="my-2 cursor-pointer text-center font-normal md:my-auto md:border-none md:text-left">
-                Education
-              </li>
-              <li className="my-2 cursor-pointer text-center font-normal md:my-auto md:border-none md:text-left">
-                About
-              </li>
-              <li className="my-2 cursor-pointer text-center font-normal md:my-auto md:border-none md:text-left">
-                Contact
-              </li>
-              <li className="my-2 cursor-pointer text-center font-normal md:my-auto md:border-none md:text-left">
+              <li className="my-2 cursor-pointer text-center font-normal md:my-auto md:border-none md:text-left lg:font-medium">
                 Services
+              </li>
+              <li className="my-2 cursor-pointer text-center font-normal md:my-auto md:border-none md:text-left lg:font-medium">
+                Shipment Calender
+              </li>
+              <li className="my-2 cursor-pointer text-center font-normal md:my-auto md:border-none md:text-left lg:font-medium">
+                Pricing
+              </li>
+              <li className="my-2 cursor-pointer text-center font-normal md:my-auto md:border-none md:text-left lg:font-medium">
+                Our Locations
               </li>
               <li className=" flex justify-center pb-1 md:justify-start">
                 <button className="rounded-lg bg-[#fe0000] px-3 py-2 text-sm font-semibold text-white  md:w-auto md:py-2 md:px-3 md:text-base">

@@ -67,14 +67,14 @@ export const Locations = [
     Img: "/Images/loc1.png",
   },
   {
-    loc: "3300 County Road 10 Brooklyn Center MN 55429, Suite 206",
+    loc: "12763 Capricorn St Suite 900, Stafford, TX 77477",
     btn: "VIEW DIRECTION",
     phone: "+1(832)9702740",
     ico: <FaWhatsapp />,
     Img: "/Images/loc2.png",
   },
   {
-    loc: "Shop D213 Ogba Multipurpose Shopping Complex, Abiodun Jagun Street, Ogba, Lagos 25, Ajayi Road, Ogba, Lagos",
+    loc: "12763 Capricorn St Suite 900, Stafford, TX 77477",
     btn: "VIEW DIRECTION",
     phone: "+2349132457112",
     ico: <FaWhatsapp />,

@@ -75,7 +75,7 @@ const Prices = () => {
                   <div
                     key={index}
                     className="card color-white mx-2 flex items-center  md:p-3 xl:mx-3  2xl:mx-6">
-                    <div className="cardss  flex-1 cursor-pointer  rounded-lg bg-[#e66060] py-4 px-3 pb-8 duration-300 hover:bg-[#ffffff] md:h-[330px] md:px-2 ">
+                    <div className="cardss cursor-pointer rounded-lg bg-[#fafafa]  py-4 px-3 pb-8 shadow-xl duration-300 first-line:flex-1 hover:bg-[#ffffff] md:h-[330px] md:px-2 ">
                       <h1 className="font-sm mt-4 text-center text-[16px] font-normal leading-8">
                         {item.name}
                       </h1>
@@ -95,7 +95,7 @@ const Prices = () => {
                       <h1 className="mt-3 px-2 text-center text-[16px] font-normal leading-7">
                         {item.address}
                       </h1>
-                      <button className="my-6  flex w-full items-center justify-center gap-2 rounded-md border-[1px] py-2">
+                      <button className="my-3  flex w-full items-center justify-center gap-2 rounded-md border-[1px] py-2">
                         <h1 className=" rounded-full bg-[#29A71A] p-[3px] text-xl text-white">
                           {" "}
                           {item.ico}

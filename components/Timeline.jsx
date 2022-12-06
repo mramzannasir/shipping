@@ -10,7 +10,7 @@ const Timeline = () => {
         <h1 className="text-center text-[28px] font-semibold leading-10 ">
           How It Works
         </h1>
-        <p className="my-3 text-center text-[16px] font-light leading-7 opacity-80 md:text-sm">
+        <p className=" text-center text-[16px] font-light leading-7 opacity-80 md:text-sm">
           The plate form is Hassle free and simple to use!
         </p>
         {/* For Mobile */}
@@ -75,8 +75,8 @@ const Timeline = () => {
           </div>
         </div>
         {/* For PC and */}
-        <div className="hidden md:block">
-          <div className="ml-12 flex items-center lg:ml-16 xl:ml-20 2xl:ml-28">
+        <div className="hidden md:block ">
+          <div className="ml-6 flex items-center lg:ml-12 xl:ml-20 2xl:mt-6 2xl:ml-40">
             <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-[#FE0000] bg-white ">
               <h3 className="m-auto inline-block text-xl font-bold text-[#FE0000]">
                 1
@@ -136,31 +136,33 @@ const Timeline = () => {
                     </div>
                   </div>
                 </div>
-                <div className="boxx absolute top-[24rem] right-[23rem] mx-auto w-[20rem] rounded-xl  bg-white py-3 px-1 shadow lg:right-[28rem] 2xl:right-[40rem]">
-                  <h1 className="text-xl font-medium">3rd Box Choose</h1>
-                  <p className="left mt-2 px-2 text-[16px] font-normal leading-6 opacity-[.8]">
-                    Send in your items to our office or contact us for a pick
-                    up. Fill our form to document your details which will
-                    include recipient info and destination of shipment.
+                <div className="absolute top-[24rem] right-[23rem] mx-auto w-[20rem] rounded-xl bg-white  py-3 px-1 shadow lg:right-[28rem] 1xl:right-[38rem] 2xl:right-[40rem]">
+                  <h1 className="text-xl font-medium opacity-50">
+                    Track Shipment
+                  </h1>
+                  <p className="left mt-2 px-2 text-[16px] font-normal leading-6 opacity-50">
+                    We would send updates as they are available.
                   </p>
                 </div>
-                <div className=" absolute top-[6rem] left-12 w-[20rem] rounded-xl bg-white py-3 px-2 shadow">
-                  <h1 className="text-xl font-medium">Pick and Ship</h1>
-                  <p className="mt-2  text-[16px] font-normal leading-5 opacity-[.8]">
-                    Send in your items to our office or contact us for a pick
-                    up. Fill our form to document your details which will
-                    include recipient info and destination of shipment.
+                <div className=" absolute top-[6rem] left-10 w-[20rem] rounded-xl bg-white py-3 px-2 shadow lg:left-12">
+                  <h1 className="text-xl font-medium opacity-50">
+                    Pick and Ship
+                  </h1>
+                  <p className="mt-2  text-[16px] font-normal leading-5 opacity-50">
+                    When your shipment arrives at our office, we will perform a
+                    final inspection before sending it out to its final
+                    destination.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className=" ml-16 w-[20rem] rounded-xl bg-white py-3 px-1 shadow lg:ml-24">
-            <h1 className="text-left text-xl font-medium">
-              Choose your shipment
+          <div className=" ml-16 w-[20rem] rounded-xl bg-white py-3 px-1 shadow lg:ml-24 2xl:ml-52">
+            <h1 className="text-left text-xl font-medium opacity-80">
+              Drop off Your Shipment
             </h1>
             <p className="mt-2  text-[16px] font-normal leading-5 opacity-[.8]">
-              Send in your items to our office or contact us for a pick up. Fill
+              Send in your items to our office or contact us for a pick up.Fill
               our form to document your details which will include recipient
               info and destination of shipment.
             </p>

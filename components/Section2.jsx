@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Videoplayer from "./Videoplayer";
 import { AiFillRightCircle } from "react-icons/ai";
@@ -12,8 +13,8 @@ const Section2 = () => {
         {/* Parent */}
         <div className="flex flex-col gap-2  md:flex-row xl:gap-8 2xl:justify-center 2xl:gap-12 ">
           {/* _________________________________Child_________________________________________ */}
-          <div className="flex-1">
-            <Videoplayer />
+          <div className="flex flex-1 md:justify-end">
+            <img src="/Images/Bitmap.png" className="rounded-md" alt="Images" />
           </div>
 
           {/* _________________________________Child_________________________________________ */}

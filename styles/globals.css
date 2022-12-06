@@ -89,9 +89,9 @@
       margin-top: 0.2rem;
     }
   }
-  @media (min-width: 1278px) {
+  @media (min-width: 1440px) {
     .boxx {
-      /* right: 40rem; */
+      right: 60rem;
     }
   }
   .Tbox {

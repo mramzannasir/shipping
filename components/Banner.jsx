@@ -14,7 +14,7 @@ const Banner = () => {
         <section className="pt-8 xl:pt-10">
           <div className="flex  flex-col items-center md:flex-row xl:justify-center 2xl:items-center 2xl:gap-12">
             <div className="flex flex-col text-center md:text-left ">
-              <h1 className="text-[32px] font-bold leading-10 xl:text-4xl 2xl:text-6xl">
+              <h1 className="text-[32px] font-bold leading-10 xl:text-[46px] xl:font-bold xl:leading-[66px]">
                 Nigeria logistic simplified
               </h1>
               <p className="my-4 px-[3px] text-center text-[16px] font-normal leading-relaxed text-[#212121] opacity-80 md:my-2 md:px-0 md:text-left">
@@ -27,31 +27,39 @@ const Banner = () => {
                 </button>
               </div>
             </div>
-            <div className="mt-12 flex justify-center md:mt-0">
+            <div className="mt-12 flex cursor-pointer justify-center md:mt-0">
               <Image src={img1} className="" alt="normal" priority />
             </div>
           </div>
         </section>
         {/* Lower Box */}
-        <section className="mx-auto -mt-6 flex w-full flex-col items-center  justify-center rounded-md bg-white p-4 py-6 opacity-95 shadow-lg md:-mt-2 md:flex-row md:justify-around  md:p-3 md:px-4 md:shadow-2xl xl:p-4 2xl:px-11 ">
+        <section className="mx-auto -mt-1 flex w-full flex-col items-center  justify-center rounded-md bg-white p-4 py-6 opacity-95 shadow-lg md:-mt-2 md:flex-row md:justify-around  md:p-3 md:px-4 md:shadow-2xl xl:p-4 2xl:px-11 ">
           <div className="flex  items-center justify-center  gap-4 md:flex-row xl:gap-6">
             <div className="ico rounded-full bg-white p-3">
               <Image src={img3} alt="normal" />
             </div>
             <div className="flex flex-col gap-1">
-              <h1 className="text-xl font-semibold">1000+</h1>
-              <p className="text-sm">Fastest Deliveries</p>
+              <h1 className="text-xl text-[24px] font-medium leading-7 lg:font-semibold">
+                1000+
+              </h1>
+              <p className="text-[18px] leading-7 text-[#212121] opacity-80">
+                Fastest Deliveries
+              </p>
             </div>
           </div>
           {/* Line */}
-          <div className="my-6 h-[1px] w-full bg-[#6868683b] md:my-0 md:mr-6 md:h-10 md:w-[1px] md:bg-[#68686877] lg:mr-0 xl:h-16"></div>
+          <div className="my-6  h-[1px] w-full bg-[#6868683b] md:my-0 md:mr-6 md:h-10 md:w-[1px] md:bg-[#68686877] lg:mr-0 xl:h-16"></div>
           <div className="flex  items-center justify-center  gap-4 md:flex-row xl:gap-6">
             <div className="ico rounded-full bg-white p-3">
               <Image src={img2} alt="normal" />
             </div>
             <div className="flex flex-col gap-1">
-              <h1 className="text-xl font-semibold">150+</h1>
-              <p className="text-sm">Happy Customers</p>
+              <h1 className="text-xl text-[27px] font-medium leading-7 lg:font-semibold">
+                150+
+              </h1>
+              <p className="text-[18px] leading-7 text-[#212121] opacity-80">
+                Happy Customers
+              </p>
             </div>
           </div>
           {/* Line */}
@@ -61,8 +69,12 @@ const Banner = () => {
               <Image src={img4} alt="normal" />
             </div>
             <div className="flex flex-col gap-1">
-              <h1 className="text-xl font-semibold">100+</h1>
-              <p className="text-sm">Nationwide Reach</p>
+              <h1 className=" text-[27px] font-medium leading-7 lg:font-semibold">
+                100+
+              </h1>
+              <p className="text-[18px] leading-7 text-[#212121] opacity-80">
+                Nationwide Reach
+              </p>
             </div>
           </div>
         </section>

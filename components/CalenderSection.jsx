@@ -8,11 +8,11 @@ const CalenderSection = () => {
         <h1 className="text-center text-[28px] font-semibold leading-10 lg:text-[40px]">
           Shipment Calendar
         </h1>
-        <p className="my-4 text-center  text-[14px] font-light leading-7  tracking-wide text-[black] opacity-80 lg:text-[16]">
+        <p className="mt-2 text-center  text-[14px] font-light leading-7  tracking-wide text-[black] opacity-80 lg:text-[16]">
           Check out the dates we will be shipping from your City and send in
           your items to our office.
         </p>
-        <div className="flex w-[100%] flex-col  gap-5 md:flex-row">
+        <div className="mt-2 flex w-[100%]  flex-col gap-5 md:mt-4 md:flex-row">
           {/* Child 1 */}
           <div className="scrl flex w-[100%] flex-1 flex-row  gap-4 overflow-x-scroll pb-2 md:h-[16rem] md:w-[20%] md:flex-col md:gap-0 md:space-y-4 md:overflow-y-scroll md:pb-0  md:pr-2 lg:items-center ">
             {/* Its mini selection child */}
