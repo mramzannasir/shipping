@@ -106,7 +106,7 @@ const Footer = () => {
         </footer>
         <div className="mx-auto my-3 h-[1px] w-[98%] bg-[#E8E8E8]"></div>
 
-        <div className="flex flex-col justify-center md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col justify-center text-center md:flex-row md:items-center md:justify-between">
           <div>
             <p className=" text-[14px] font-normal leading-6 text-[#212121] opacity-60 ">
               © SSAF. All Rights Reserved
